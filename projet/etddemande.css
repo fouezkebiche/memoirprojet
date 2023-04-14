@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Tajawal', sans-serif;
+
+}
+body{
+    width:100%;
+    height: 100%;
+    /* overflow: hidden; */
+    background:#12384A;
+
+}
+.main{
+    position:relative;
+
+}
+.first{
+    position: absolute;
+    top: 5px;
+    left: 90px;
+}
+.navbar{
+    width:100%;
+    height: auto;
+    position: relative;
+    display:flex;
+    z-index: 1;
+}
+li{
+    display: inline;
+    margin:10px;
+}
+ul{
+    position: relative;
+    left: 950px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+.linkspace{
+    position: absolute;
+    top:18px;
+    left: -700px;
+
+}
+.logospace{
+    position: relative;
+    top:5px;
+}
+.loginButton1{
+    position: absolute;
+    top:18px;
+    left: 1200px;
+    width: 200px;
+    
+}
+.personal-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/* form {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 800px;
+    top: 15px;
+} */
+  
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+    margin-right: 10px;
+}
+  
+.third{
+    position: absolute;
+    top: 650px;
+    left: 75%;
+}
+ 
+.search{
+    position: absolute;
+    left: 800px;
+    top: 15px;
+    width: 200px;
+    display: inline;
+    display: flex;
+    align-items: center;
+
+}
+.submitbtn{
+    position: absolute;
+    left: 91%;
+    padding: 8px;
+    background-color: #fba026;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    display: inline;
+}
+.searchbtn{
+    position: absolute;
+    left: 200px;
+    padding: 8px;
+    background-color: #fba026;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    display: inline;
+}
+.second{
+    position: relative;
+    top: 200px;
+    width: 1000px;
+    left: 200px;
+}
+.demand-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+  
+.demand-item {
+    width: 800px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.demand-item:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+h3 {
+    margin-top: 0;
+}
+  
+.consult-btn1 {
+    background-color: #fba026;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    left: 800px;
+}
+.consult-btn2 {
+    background-color: #fba026;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    left: 700px;
+}
+  
+.consult-btn:hover {
+    background-color: #fba026;
+}
+  
+
+div {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #fba026;
+  }
+  
+  input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #0077cc;
+    color: #fff;
+    cursor: pointer;
+  }
+  .mainform{
+      position: absolute;
+      top: 50px;
+      width: 450px;
+  }
+  #popup{
+      position: absolute;
+      /* top:1080px; */
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 600px;
+      padding: 50px;
+      box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+      background: transparent;
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.5s;
+      border-radius: 15px;
+  
+      /* overflow:auto  ;                                                                                                                                          ; */
+  
+  }
+  
+  #popup.active{
+      top: 700px;
+  
+      /* left: 500px; */
+      visibility: visible;
+      opacity: 1;
+      transition: 0.5s;
+      height: 1150px;
+      filter: blur(-50px);
+      /* overflow:auto  ;  */
+  }
+  
+  
+  
+  #blur.active{
+      filter: blur(70px);
+      /* pointer-events: none;
+      user-select: none; */
+  
+  }
+  
+  .tahrik{
+      position: relative;
+      left: 70px;
+      top: 80px;
+      
+  }
+  
+  h1{
+      color: white;
+      position: absolute;
+      left: 200px;
+  }

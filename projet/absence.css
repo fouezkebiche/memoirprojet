@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Source Serif Pro', serif;
+    font-family: 'Tajawal', sans-serif;
+
+}
+body{
+    width:100%;
+    height: 100%;
+    /* overflow: hidden; */
+    background:#12384A;
+
+}
+.main{
+    position:relative;
+
+}
+.first{
+    position: absolute;
+    top: 5px;
+    left: 90px;
+}
+.navbar{
+    width:100%;
+    height: auto;
+    position: relative;
+    display:flex;
+    z-index: 1;
+}
+li{
+    display: inline;
+    margin:10px;
+}
+ul{
+    position: relative;
+    left: 950px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+.linkspace{
+    position: absolute;
+    top:18px;
+    left: -700px;
+
+}
+.logospace{
+    position: relative;
+    top:5px;
+}
+.loginButton1{
+    position: absolute;
+    top:18px;
+    left: 1200px;
+    width: 200px;
+    
+}
+.pointage-table {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+  }
+  .formplace{
+    font-size: larger;
+    color: white;
+  }
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .pointage-table h2, .pointage-table h3 {
+    text-align: center;
+    font-size: larger;
+    color: #fba026;
+
+  }
+  .pointage-table h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: larger;
+    color: #fba026;
+  }
+  .pointage-table table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: larger;
+  }
+  .pointage-table th, .pointage-table td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    font-size: larger;
+  }
+  .pointage-table th {
+    background-color: lightgray;
+    font-size: larger;
+  }
+  .pointage-table input[type="text"], .pointage-table input[type="time"], .pointage-table input[type="date"] {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-align: center;
+    font-family: inherit;
+    font-size: inherit;
+    font-size: larger;
+  }
+  
+
+  .remarquemaitre{
+    font-size: larger;
+    color: white;
+  }
